@@ -1,0 +1,78 @@
+/* Regular */
+@font-face {
+  font-family: 'PT Sans';
+  src: url('fonts/PTSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'PT Sans';
+  src: url('fonts/PTSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'PT Sans';
+  src: url('fonts/PTSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'PT Sans';
+  src: url('fonts/PTSans-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "PT-Sans",sans-serif;
+
+}
+
+.hero{
+	background-image: url('/Img/index-background.jpg');
+  background-position: center center;  /* фон по центру, svg сверху */
+  background-size: cover; /* фон растягивается, svg занимает 80% ширины */
+  background-repeat: no-repeat;
+  height: 485px;
+}
+.welcome-img{
+	padding: 51px;
+	width: 458px;
+  height: 352px;
+	display: block;
+	margin: 0 auto;
+}
+
+.decor-img{
+	width: 100%;
+	margin-bottom: -119px;
+}
+.title-sedona{
+	padding: 69px;
+	font-size: 30px;
+ font-style: normal; 
+ font-weight: 700;
+ line-height: 36px; /* 120% */
+ text-transform: uppercase;
+ text-align: center;
+}
+
+.text-sedona{
+	padding: 15px;
+	font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+	text-align: center;
+}
