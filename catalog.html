@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="./Style/catalog.css">
+</head>
+
+<body>
+    <header class="header-page">
+        <nav class="navigation-main">
+            <a href="index.html">
+                <img src="./Img/logo.svg" alt="">
+            </a>
+            <ul class="navigation-list">
+                <li class="item-link">
+                    <a class='nav-link' href="">Главная</a>
+                </li>
+                <li class="item-link">
+                    <a class='nav-link' href="">О седоне</a>
+                </li>
+                <li class="item-link">
+                    <a class='nav-link' href="">Гостиницы</a>
+                </li>
+                <li>
+                    <img class='search-lupa' src="./Img/search.png" alt="Поисковая лупа">
+                </li>
+                <li>
+                    <img class='heart-likes' src="./Img/heart.png" alt="сердце лайков">
+                </li>
+                <li>
+                    <a href="#" class="cta-button">ХОЧУ СЮДА!</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="filter-section">
+        <div class="box-title">
+            <h1 class="title-filter">Гостиницы Седоны</h1>
+        </div>
+        <div class="box-icon">
+            <img src="./Img/home.png" alt="Иконка домика">
+        </div>
+        <div class="box-strelka">
+            <img src="./Img/strela.svg" alt="стрелка указатель">
+        </div>
+        <div class="box-icon">
+            <p class="title-holtels">Гостиницы</p>
+        </div>
+        <form action="" class="form-filter">
+            <fieldset>
+                <legend>Инфраструктура:</legend>
+                <label for="pool"><input type="checkbox" id="pool" name="amenity" value="pool" checked> Бассейн</label>
+                <label for="parking"><input type="checkbox" id="parking" name="amenity" value="parking" checked>
+                    Парковка</label>
+                <label for="wifi"><input type="checkbox" id="wifi" name="amenity" value="wifi"> Wi-Fi</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Тип жилья:</legend>
+                <label for="hotel"><input type="radio" id="hotel" name="type" value="hotel" checked> Гостиница</label>
+                <label for="motel"><input type="radio" id="motel" name="type" value="motel"> Мотель</label>
+                <label for="apartments"><input type="radio" id="apartments" name="type" value="apartments">
+                    Апартаменты</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Стоимость, ₽:</legend>
+                <div class="price-range-inputs">
+                    <input type="number" name="price_from" min="0" max="9000" value="0">
+                    <span>от</span>
+                    <input type="number" name="price_to" min="0" max="9000" value="9000">
+                    <span>до</span>
+                </div>
+                <input type="range" name="price_slider" min="0" max="9000" value="4500">
+            </fieldset>
+
+            <button type="submit">Применить</button>
+            <button type="reset">Сбросить</button>
+        </form>
+    </section>
+    <section class="search-section">
+        <div class="hotels-count">
+            <h3 class="title-hotels-serach">Найдено гостиниц:<span>38</span></h3>
+        </div>
+        <div class="box-price">
+            <form class="form-options" action="">
+                <select name="" id="select-options">
+                    <option value="price_asc">Сначала дешевые</option>
+                    <option value="price_desc">Сначала дорогие</option>
+                </select>
+            </form>
+        </div>
+        <div class="box-link">
+            <ul class="list-main">
+                <li>
+                    <a href="#">
+                        <img src="./Img/icon1.svg" alt="Иконка переход в меню выбора">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./Img/icon2.svg" alt="Иконка переход на главную страницу">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./Img/icon3.svg" alt="Иконка переход на в раздел услуг">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="catalog-choice">
+        <div class="box-choice">
+            <div class="card-choice">
+                <h3 class="title-choice">Amara Resort & Spa</h3>
+                <div class="box-info">
+                    <p class="text-info">Гостиница</p>
+                    <p class="price-info">От4000 Р</p>
+                </div>
+                <div class="box-button">
+                    <button class="btn-details" id="details">Подробнее</button>
+                    <button class="btn-favorites" id="favorites">Избранное</button>
+                </div>
+                <div class="rating-box">
+                    <div class="starts-box">
+                        <div class="starts">
+                            <img src="./Img/start1 (1).png" alt="Иконки звезд рейтинга">
+                            <img src="./Img/start1 (2).png" alt="Иконки звезд рейтинга">
+                            <img src="./Img/start1 (3).png" alt="Иконки звезд рейтинга">
+                            <img src="./Img/start1 (4).png" alt="Иконки звезд рейтинга">
+                        </div>
+                        <div class="rating-info">
+                            <p class="rating-text">Рейтинг: 8,5</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-choice">
+                <h3 class="title-choice">Villas at Poco Diablo</h3>
+                <div class="box-info">
+                    <p class="text-info">Гостиница</p>
+                    <p class="price-info">От5000Р</p>
+                </div>
+                <div class="box-button">
+                    <button class="btn-details" id="details">Подробнее</button>
+                    <button class="btn-favorites" id="favorites">Избранное</button>
+                </div>
+                <div class="rating-box">
+                    <div class="starts-box">
+                        <div class="starts">
+                            <img src="./Img/start1 (1).png" alt="Иконки звезд рейтинга">
+                            <img src="./Img/start1 (2).png" alt="Иконки звезд рейтинга">
+                            <img src="./Img/start1 (3).png" alt="Иконки звезд рейтинга">
+                            <img src="./Img/start1 (3).png" alt="Иконки звезд рейтинга">
+                        </div>
+                        <div class="rating-info">
+                            <p class="rating-text">Рейтинг: 9,2</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-choice">
+                <h3 class="title-choice">Desert Quail Inn</h3>
+                <div class="box-info">
+                    <p class="text-info">Гостиница</p>
+                    <p class="price-info">От2500Р</p>
+                </div>
+                <div class="box-button">
+                    <button class="btn-details" id="details">Подробнее</button>
+                    <button class="btn-favorites" id="favorites">Избранное</button>
+                </div>
+                <div class="rating-box">
+                    <div class="starts-box">
+                        <div class="starts">
+                            <img src="./Img/start1 (1).png" alt="Иконки звезд рейтинга">
+                            <img src="./Img/start1 (2).png" alt="Иконки звезд рейтинга">
+                            <img src="./Img/start1 (3).png" alt="Иконки звезд рейтинга">
+                        </div>
+                        <div class="rating-info">
+                            <p class="rating-text">Рейтинг: 6,9</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-choice">
+                <h3 class="title-choice">GreenTree Inn</h3>
+                <div class="box-info">
+                    <p class="text-info">Гостиница</p>
+                    <p class="price-info">От1500Р</p>
+                </div>
+                <div class="box-button">
+                    <button class="btn-details" id="details">Подробнее</button>
+                    <button class="btn-favorites" id="favorites">Избранное</button>
+                </div>
+                <div class="rating-box">
+                    <div class="starts-box">
+                        <div class="starts">
+                            <img src="./Img/start1 (1).png" alt="Иконки звезд рейтинга">
+                            <img src="./Img/start1 (2).png" alt="Иконки звезд рейтинга">
+                        </div>
+                        <div class="rating-info">
+                            <p class="rating-text">Рейтинг:5,0</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+    <script src="script.js" defer></script>
+</body>
+
+</html>

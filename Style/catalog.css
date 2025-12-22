@@ -1,0 +1,46 @@
+/* Regular */
+@font-face {
+  font-family: 'PT Sans';
+  src: url('fonts/PTSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'PT Sans';
+  src: url('fonts/PTSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'PT Sans';
+  src: url('fonts/PTSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'PT Sans';
+  src: url('fonts/PTSans-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "PT-Sans",sans-serif;
+
+}
+.filter-section{
+    background-image: url('/Img/Фильтр.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
