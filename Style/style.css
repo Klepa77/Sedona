@@ -38,13 +38,64 @@ body{
 	font-family: "PT-Sans",sans-serif;
 
 }
+.header-page{
+background-color: #fff;
+}
+.header-content{
+  width: 1400px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.navigation-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.navigation-list,a {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  font-style: normal;
+ font-weight: 700;
+  line-height: 24px; 
+text-transform: capitalize;
+color: #000000;
+}
 
+
+
+.header-actions{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+.cta-button{
+  background-color: #756157;
+  border-radius: 4px;
+  width: 160px;
+  height: 35px;
+  color: #fff;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
 .hero{
 	background-image: url('/Img/index-background.jpg');
-  background-position: center center;  /* фон по центру, svg сверху */
-  background-size: cover; /* фон растягивается, svg занимает 80% ширины */
+  background-position: center center;  
+  background-size: cover;
   background-repeat: no-repeat;
   height: 485px;
+  width: 1400px;
 }
 .welcome-img{
 	padding: 51px;
@@ -63,7 +114,7 @@ body{
 	font-size: 30px;
  font-style: normal; 
  font-weight: 700;
- line-height: 36px; /* 120% */
+ line-height: 36px; 
  text-transform: uppercase;
  text-align: center;
 }
@@ -75,4 +126,119 @@ body{
   font-weight: 400;
   line-height: 26px;
 	text-align: center;
+}
+.city-content{
+  width: 1400px;
+  height: 385px;
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  
+
+}
+.box-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #82B3D3;
+  width: 400px;
+  height: 100%;
+}
+
+.title-city{
+ font-family: "PT Sans";
+ font-size: 24px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 28px; 
+ text-transform: uppercase;
+ color: #FFFFFF;
+ text-align: center;
+
+}
+.divider-line{
+  width: 60px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.30);
+}
+
+.content-city{
+  text-align: center;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 21px;
+ color: #FFFFFF;
+}
+
+.city-photo{
+  background-image: url("/Img/photo-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+
+}
+
+.advantages-section{
+  width: 100%;
+  height:385px ;
+  background:#FFFFFF;
+  display: flex;
+
+  
+}
+.advantages-list{ 
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+
+
+
+}
+.advantages-link .text-advantages{
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.advantages-link:hover{
+  background: rgba(131, 179, 211, 0.12);
+  height: 385px;
+  text-decoration: none;
+}
+
+.advantages-line{
+   width: 60px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.30);
+  margin: 0 auto;
+}
+.img-euro{
+  width: 15px;
+  height: 25px;
+}
+.advantages-title {
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+text-transform: uppercase;
+color:#000;
+}
+.text-advantages{
+  font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; 
+color:#333;
 }

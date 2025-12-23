@@ -10,31 +10,23 @@
 
 <body>
 	<header class="header-page">
-		<nav class="navigation-main">
-			<a href="index.html">
-				<img src="./Img/logo.svg" alt="">
-			</a>
-			<ul class="navigation-list">
-				<li class="item-link">
-					<a class='nav-link' href="">Главная</a>
-				</li>
-				<li class="item-link">
-					<a class='nav-link' href="">О седоне</a>
-				</li>
-				<li class="item-link">
-					<a class='nav-link' href="">Гостиницы</a>
-				</li>
-				<li>
-					<img class='search-lupa' src="./Img/search.png" alt="Поисковая лупа">
-				</li>
-				<li>
-					<img class='heart-likes' src="./Img/heart.png" alt="сердце лайков">
-				</li>
-				<li>
-					<a href="#" class="cta-button">ХОЧУ СЮДА!</a>
-				</li>
-			</ul>
-		</nav>
+		<div class="header-content">
+			<a href="index.html"><img src="./Img/logo.svg" alt="Седона Тревел"></a>
+
+			<nav class="navigation-main" aria-label="Основная навигация">
+				<ul class="navigation-list">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">О Седоне</a></li>
+					<li><a href="#">Гостиницы</a></li>
+				</ul>
+			</nav>
+
+			<div class="header-actions">
+				<button aria-label="Поиск"><img src="./Img/search.png" alt=""></button>
+				<button aria-label="Избранное"><img src="./Img/heart.png" alt=""></button>
+				<a href="#booking" class="cta-button">ХОЧУ СЮДА!</a>
+			</div>
+		</div>
 	</header>
 	<main class="main-index">
 		<section class="hero">
@@ -45,7 +37,6 @@
 		</section>
 		<section class='hero-content'>
 			<h1 class="title-sedona">Седона — небольшой городок в Аризоне,
-				<br>
 				заслуживающий большего!
 			</h1>
 			<p class='text-sedona'>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
@@ -57,37 +48,51 @@
 				</h3>
 				<hr class="divider-line">
 				<p class="content-city">
-					Седона — не аттракцион для <br>туристов, там течёт своя<br> жизнь
+					Седона — не аттракцион для
+					туристов, там течёт своя
+					жизнь
 				</p>
 			</div>
-			<div class="city-fhoto">
-				<img class="img-city" src="./Img/photo-1.jpg" alt="Фото города">
-			</div>
+			<div class="city-photo"></div>
 		</section>
 		<section class="advantages-section">
-			<div class="advantages-card">
-				<img class="img-euro" src="./Img/Небольшая_площадь.png" alt=" Евро">
-				<hr class="advantages-line">
-				<p class="text-advantages">
-					Все достопримечательности <br>находятся очень близко
-				</p>
-			</div>
-			<div class="advantages-card2">
-				<h2 class="advantages-title">
-					Красивая<br>дорога
-				</h2>
-				<hr class="advantages-line">
-				<p class="text-advantages">
-					Ехать в Седону из Лас-Вегаса<br>совсем не скучно!
-				</p>
-			</div>
-			<div class="advantages-card3">
-				<h2 class="advantages-title">
-					Мало<br>туристов
-				</h2>
-				<hr class="advantages-line">
-				<p class="text-advantages">Большинство едет в Гранд<br> Каньон и толпится там</p>
-			</div>
+			<ul class="advantages-list">
+				<li class="advantages-link">
+					<a href="#">
+						<img class="img-euro" src="./Img/Небольшая_площадь.png" alt=" Евро">
+						<hr class="advantages-line">
+						<p class="text-advantages">
+							Все достопримечательности
+							находятся очень близко
+						</p> 
+					</a>
+				</li>
+
+				<li class="advantages-link">
+					<a href="#">
+						<h2 class="advantages-title">
+							Красивая
+							дорога
+						</h2>
+						<hr class="advantages-line">
+						<p class="text-advantages">
+							Ехать в Седону из Лас-Вегаса
+							совсем не скучно!
+						</p>
+					</a>
+				</li>
+				<li class="advantages-link">
+					<a href="#">
+						<h2 class="advantages-title">
+							Мало
+							туристов
+						</h2>
+						<hr class="advantages-line">
+						<p class="text-advantages">Большинство едет в Гранд
+							Каньон и толпится там</p>
+					</a>
+				</li>
+			</ul>
 		</section>
 		<section class="devil bridge">
 			<div class="devil-box">
@@ -95,18 +100,22 @@
 			</div>
 			<div class="bridge-content">
 				<h3 class="title-bridge-content">
-					Там есть<br>мост дьявола
+					Там есть
+					мост дьявола
 				</h3>
 				<hr class="btidge-devil-line">
 				<p class="text-bridge-devil">
-					Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется
+					Да, по нему можно пройти!
+					Если вы осмелитесь,
+					разумеется
 				</p>
 			</div>
 		</section>
 		<section class="welcome-content">
 			<div class="welcome-box">
 				<h1 class="title-welcome">
-					Приезжайте в Седону отдохнуть<br> в комфорте и уюте!
+					Приезжайте в Седону отдохнуть
+					в комфорте и уюте!
 				</h1>
 				<p class="welcome-text">
 					Опытный персонал и качественное обслуживание!
@@ -120,9 +129,7 @@
 						<img class="house-img" src="./Img/house.svg" alt="Иконка дома">
 						<h3 class="title-category">Жильё</h3>
 						<p class="tetx-category">
-							Рекомендуем пожить<br>в настоящем мотеле,
-							всё как в кино!
-						</p>
+							Рекомендуем пожить< в настоящем мотеле, всё как в кино! </p>
 					</a>
 				</li>
 				<li class="categories-card">
@@ -130,7 +137,8 @@
 						<img class="burger-img" src="./Img/food.svg" alt="Иконка бургера">
 						<h3 class="title-category">Еда</h3>
 						<p class="tetx-category">
-							Всегда заказывайте<br>топовый фирменный бургер,
+							Всегда заказывайте
+							топовый фирменный бургер,
 							вы не разочаруетесь!
 						</p>
 					</a>
@@ -182,15 +190,15 @@
 					<img src="./Img/social-telegram.png" alt="Фото иконки телерамма">
 				</a>
 				<a href="#" class="social">
-					 <img src="./Img/social-youtube.png" alt="Иконка значка ютуба">
+					<img src="./Img/social-youtube.png" alt="Иконка значка ютуба">
 				</a>
 			</div>
 			<div class="contact-info">
-            <a href="tel:+78128121212">+7 (812) 812-12-12</a>
-        </div>
-		<div class="copyright">
-            <span>.html academy</span>
-        </div>
+				<a href="tel:+78128121212">+7 (812) 812-12-12</a>
+			</div>
+			<div class="copyright">
+				<span>.html academy</span>
+			</div>
 		</div>
 	</footer>
 
