@@ -42,7 +42,7 @@ body{
 background-color: #fff;
 }
 .header-content{
-  width: 1400px;
+  width: 1200px;
   height: 64px;
   display: flex;
   justify-content: center;
@@ -104,13 +104,17 @@ background-color: #fff;
   padding-top: 8px; 
   
 }
+.main-container{
+  width: 1200px;
+  margin: 0 auto;
+
+}
 .hero{
 	background-image: url('/Img/index-background.jpg');
   background-position: center center;  
   background-size: cover;
   background-repeat: no-repeat;
   height: 485px;
-  width: 1400px;
 }
 .welcome-img{
 	padding: 51px;
@@ -121,7 +125,7 @@ background-color: #fff;
 }
 
 .decor-img{
-	width: 100%;
+	width: 1200px;
 	margin-bottom: -119px;
 }
 .title-sedona{
@@ -143,7 +147,7 @@ background-color: #fff;
 	text-align: center;
 }
 .city-content{
-  width: 1400px;
+  width: 1200px;
   height: 385px;
   padding-top: 70px;
   display: flex;
@@ -158,8 +162,7 @@ background-color: #fff;
   flex-direction: column;
   gap: 20px;
   background-color: #82B3D3;
-  width: 400px;
-  height: 100%;
+  height: 385px;
 }
 
 .title-city{
@@ -193,20 +196,21 @@ background-color: #fff;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  width:100%;
 
 }
 
 .advantages-section{
-
+  display: flex;
   background-color:#FFFFFF;
-  width: 100%;
+  width: 1200px;
   height: 385px;
+  padding-top: 60px;
+
 
 }
 .advantages-list{ 
   display: flex;
-  list-style: none;   
+  list-style: none;
 }
 .advantages-link {
   transition: 0.3s;
@@ -253,4 +257,57 @@ color:#000;
   font-weight: 400;
   line-height: 21px; 
   color:#333;
+}
+.devil-bridge{
+ display: flex;
+ height: 385px;
+ width: 1200px;
+ 
+ 
+
+}
+
+.bridge-content{
+  background-color:#82B3D3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  width: 400px;
+  
+
+}
+
+.title-bridge-content{
+  color:white;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+  text-transform: uppercase;
+
+
+}
+
+.bridge-devil-line{
+  width:60px;
+  height: 2px;
+  background-color: #FFFFFF4D;
+  display: block;
+  margin: 0 auto;
+  border: none;  
+
+}
+
+.text-bridge-devil{
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 116.667% */
+  color: white;
+
+  
+
 }
