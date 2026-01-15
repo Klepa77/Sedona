@@ -390,6 +390,7 @@ color:#000;
   text-align: center;
   padding-top: 96px;
   background-color: #ffffff;
+  padding-top: 96px;
 
   
 }
@@ -405,4 +406,18 @@ color:#000;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 118.182% */
+  padding: 20px;
+}
+
+.btn-search-hotels{
+  text-decoration: none;
+  width: 376px;
+  height: 52px;
+  background-color: #756157;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 180% */
+  text-transform: uppercase;
 }
