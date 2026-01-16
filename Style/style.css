@@ -428,3 +428,9 @@ color:#000;
   border-style: none;
   border-radius: 7px;
 }
+.newsletter-section{
+  width: 1200px;
+  background-image: url(../Img/Фильтр.png);
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
